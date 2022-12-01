@@ -1,0 +1,72 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dice1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+}
+.dice2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+#reload, #start{
+  align-self: flex-end;
+}
+#player2Throw, #player1Throw, #reload, #start{
+  margin-top: 1rem;
+  width: 100px;
+  padding: 5px 15px;
+  background: rgb(0, 163, 136);
+  border-radius: 5px;
+  color: white;
+  
+}
+.controller{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-self: center;
+  
+}
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
